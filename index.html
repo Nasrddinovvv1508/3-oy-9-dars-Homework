@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Senim Cabinet</title>
+</head>
+<body>
+
+    <aside>
+        <section class="up_section">
+            <div class="aside_header">
+                <a href="#">
+                    <img class="logo" width="44" src="./img/Logo.svg" alt="Logo">
+                    <span>ТОО «Smart»</span>
+                    <img class="settings" src="./img/settings2.svg" alt="settings icon">
+                </a>
+            </div>
+
+            <div class="aside_main">
+                <a href="#">
+                    <img src="./img/dashboard.svg" alt="dashboard icon">
+                    <span>Компания</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/checks.svg" alt="checks icon">
+                    <span>Счета</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/places.svg" alt="places icon">
+                    <span>Торговые точки</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/employees.svg" alt="employees icon">
+                    <span>Сотрудники</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/integration.svg" alt="integration icon">
+                    <span>Интеграция</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/bank-cards.svg" alt="bank cards icon">
+                    <span>Отчёты и финансы</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/organizations.svg" alt="organizations icon">
+                    <span>Организации</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/trusted-checks.svg" alt="trusted checks icon">
+                    <span>Доверенные счета</span>
+                </a>
+
+                <a href="#">
+                    <img src="./img/manage.svg" alt="manage icon">
+                    <span>Услуги</span>
+                </a>
+            </div>
+        </section>
+
+        <div class="aside_footer">
+            <img src="./img/collapse.svg" alt="collapse">
+            <span>Свернуть панель</span>
+        </div>
+    </aside>
+
+    <main>
+        <div class="main_head">
+            <h1>Все счета</h1>
+            <button>
+                Выставить счёт
+            </button>
+        </div>
+
+            <section class="up_main">
+                <div class="category">
+                    <label for="check">
+                        <span>Выставленные</span>
+                    </label>
+                    <label for="check">
+                        <span>К оплате</span>
+                    </label>
+                    <label for="check">
+                        <span>История</span>
+                    </label>
+
+                    <input type="checkbox" name="" id="check">
+
+                </div>
+                <form action="">
+                    <select name="" id="">
+                        <option value="Все торговые точки и операции">Все торговые точки и операции</option>
+                    </select>
+                    <input type="text" placeholder="Поиск по номеру счета">
+                    <select name="" id="">
+                        <option value="Фильтры">Фильтры</option>
+                    </select>
+                    <select class="last" name="" id="">
+                        <option value="Действия">Действия</option>
+                    </select>
+                </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head1">
+                                <input type="checkbox" name="" id="">
+                                <p>Номер счета</p>
+                            </th>
+                            <th>
+                                <select name="" id="">
+                                    <option value="Время и дата">Время и дата</option>
+                                </select>
+                            </th>
+                            <th>
+                                <p>Торговая точка / Оперция</p>
+                            </th>
+                            <th>
+                                <select name="" id="">
+                                    <option value="Сумма">Сумма</option>
+                                </select>
+                            </th>
+                            <th>
+                                <p>Получено</p>
+                            </th>
+                            <th>
+                                <select name="" id="">
+                                    <option value="Статус">Статус</option>
+                                </select>
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody> 
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">№32467</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    11:20 05.01.2019
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    Smart Лазурный
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">1500 тг</p>
+                                <span class="another">  
+                                    −150 тг
+                                </span>
+                            </td>
+                            <td class="td_items">
+                                1350 тг
+                            </td>
+                            <td>
+                                <a class="green">Оплачено</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">№32466</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    21:18 02.01.2019
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    Smart Ишим
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">3 850 тг</p>
+                            </td>
+                            <td class="td_items">
+                            </td>
+                            <td>
+                                <a class="red">Отклонено</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">Вывод</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    00:00 31.12.2018
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    -
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">−16 335 тг</p>
+                            </td>
+                            <td class="td_items">
+                            </td>
+                            <td>
+                                <a class="blue">Вывод средств</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">№32467</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    11:20 29.12.2018
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    Smart Лазурный
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">1000 тг</p>
+                            </td>
+                            <td class="td_items">
+                            </td>
+                            <td>
+                                <a class="red">Отклонено</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">№32467</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    11:20 29.12.2018
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    Smart Лазурный
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">1500 тг</p>
+                                <span class="another">  
+                                    −150 тг
+                                </span>
+                            </td>
+                            <td class="td_items">
+                                1350 тг
+                            </td>
+                            <td>
+                                <a class="green">Оплачено</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">Комиссия</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    11:20 29.12.2018
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                   -
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items other_item">−168 тг</p>
+                            </td>
+                            <td class="td_items">
+                            </td>
+                            <td>
+                                <a class="red">Комиссия</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">№32467</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    11:20 29.12.2018
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    Smart Лазурный
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">1500 тг</p>
+                                <span class="another">  
+                                    −150 тг
+                                </span>
+                            </td>
+                            <td class="td_items">
+                                1350 тг
+                            </td>
+                            <td>
+                                <a class="green">Оплачено</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="head1">
+                                <input type="checkbox" name="" id="">
+                                <h4 class="td_items">№32467</h4>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    11:20 29.12.2018
+                                </span>
+                            </td>
+                            <td>
+                                <span class="td_items">
+                                    Smart Ишим
+                                </span>
+                            </td>
+                            <td class="cost">
+                                <p class="td_items">9 980 тг</p>
+                                <span class="another">  
+                                    −998 тг
+                                </span>
+                            </td>
+                            <td class="td_items">
+                                8 982 тг
+                            </td>
+                            <td>
+                                <a class="green">Оплачено</a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </section>
+    </main>
+
+
+
+</body>
+</html>
